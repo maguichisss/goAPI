@@ -1,7 +1,10 @@
 # goAPI
 Simple API REST
 
-## Install
+## Install GO
+ https://golang.org/doc/install?download=go1.12.6.linux-amd64.tar.gz
+
+## Install GO dependencies
 
  - go get -u github.com/gorilla/mux
 
