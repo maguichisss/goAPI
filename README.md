@@ -1,5 +1,5 @@
-# goAPI
-Simple API REST
+# API GO
+Simple GO API REST
 
 ## Install GO
  https://golang.org/doc/install?download=go1.12.6.linux-amd64.tar.gz
