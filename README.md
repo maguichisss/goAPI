@@ -23,19 +23,19 @@ Execute with admin permisions:
 ### Clientes
  - curl http://localhost:3000/clientes
  - curl http://localhost:3000/clientes/ASDFG08
- - curl -k http://localhost:3000/clientes -d 'id=unIdX&nombre=VICTORIA'
+ - curl -X POST http://localhost:3000/clientes -d 'id=unIdX&nombre=VICTORIA'
  - curl -X PUT http://localhost:3000/clientes/unIdX -d 'nombre=VICTORIA ALADA'
  - curl -X DELETE http://localhost:3000/clientes/unIdX
 ### Grupos
 - curl http://localhost:3000/grupos
 - curl http://localhost:3000/grupos/ABCD2
-- curl -k http://localhost:3000/grupos -d 'id=unIdX&nombre="GRUPO MODELO"'
+- curl -X POST http://localhost:3000/grupos -d 'id=unIdX&nombre="GRUPO MODELO"'
 - curl -X PUT http://localhost:3000/grupos/unIdX -d 'nombre=VICTORIOSO'
 - curl -X DELETE http://localhost:3000/grupos/unIdX
 ### Cuentas
  - curl http://localhost:3000/cuentas
  - curl http://localhost:3000/cuentas/ABCD2
- - curl -k http://localhost:3000/cuentas -d 'id=unIdX&grupo_id=ABCD2&estatus=PENDIENTE&monto=10000&saldo=10000'
+ - curl -X POST http://localhost:3000/cuentas -d 'id=unIdX&grupo_id=ABCD2&estatus=PENDIENTE&monto=10000&saldo=10000'
  - curl -X PUT http://localhost:3000/cuentas/unIdX -d 'grupo_id=ABCD2&estatus=ACTIVE&monto=10000&saldo=10000'
  - curl -X DELETE http://localhost:3000/cuentas/unIdX
 ### Miembros
