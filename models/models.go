@@ -30,8 +30,8 @@ func (Grupos) TableName() string {
     return "Grupos"
 }
 type Grupos struct {
-    Id      string `json:"data,omitempty"`
-    Nombre  string `json:"data,omitempty"`
+    Id      string `json:",omitempty"`
+    Nombre  string `json:",omitempty"`
 }
 //
 func (CalendarioPagos) TableName() string {
